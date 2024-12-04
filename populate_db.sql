@@ -11,14 +11,14 @@ VALUES
 
 
 
-INSERT INTO pedido (id_cliente, fecha_pedido, total)
+INSERT INTO pedido (id_cliente, descripcion, total)
 VALUES
-    (1, '2024-12-01', 5000),
-    (2, '2024-12-02', 3000),
-    (1, '2024-12-03', 2000),
-    (3, '2024-12-03', 4500),
-    (5, '2024-12-04', 10000),
-    (4, '2024-12-05', 1500);
+    (1, 'PANTUFLAS', 5000),
+    (2, 'PIJAMA', 3000),
+    (1, 'CHALECO', 2000),
+    (3, 'BUFANDA', 4500),
+    (5, 'CINTURON', 10000),
+    (4, 'CALCETINES', 1500);
 
 
 
