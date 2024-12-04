@@ -1,7 +1,7 @@
 USE mega;
 
 
-INSERT INTO clientes (nombre, email, telefono, direccion)
+INSERT INTO cliente (nombre, email, telefono, direccion)
 VALUES 
     ('Juanito Pérez', 'juanito.perez@fknemail.cl', '+56930302928', 'LAS PETUNIAS 123'),
     ('Marta López', 'marta.lopez@mailcito.cL', '+56946573829', 'FLORINDA MEZA 4321'),
@@ -11,7 +11,7 @@ VALUES
 
 
 
-INSERT INTO pedidos (id_cliente, fecha_pedido, total)
+INSERT INTO pedido (id_cliente, fecha_pedido, total)
 VALUES
     (1, '2024-12-01', 5000),
     (2, '2024-12-02', 3000),
